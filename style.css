@@ -1,0 +1,25 @@
+body {
+    background: #fff;
+    font-family: sans-serif;
+}
+
+.mainHeader {
+    color: tomato;
+}
+
+.diaryHeader {
+    color: green;
+}
+
+h2 {
+    color: #1460aa;
+}
+
+.menu {
+    padding: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
