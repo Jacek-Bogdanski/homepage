@@ -11,13 +11,22 @@ body {
     color: green;
 }
 
+.sectionHeader {
+    color: #16425B;
+}
+
 h2 {
     color: #1460aa;
 }
 
 .menu {
     padding: 10px;
-    background: #1460aa;
+    background: #16425B;
+    color: #FFF;
+}
+
+.menuLink {
+    color: white;
 }
 
 a {
