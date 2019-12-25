@@ -1,8 +1,6 @@
 body {
     background: #fff;
     font-family: sans-serif;
-    width: 100%;
-    margin: 0;
 }
 
 .mainHeader {
@@ -35,6 +33,11 @@ h2 {
 .about {
     max-width: 900px;
     min-width: 500px;
-    height: 300px;
+}
+
+.paragraph {
+    padding: 10px;
+    border: dotted;
+    max-height: 200px;
     overflow: scroll;
 }
