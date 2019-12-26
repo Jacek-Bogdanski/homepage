@@ -31,13 +31,27 @@ h2 {
 }
 
 .about {
-    max-width: 900px;
     min-width: 500px;
+    position: relative;
+}
+
+.box {
+    height: 100px;
+    width: 100px;
+    background: #555;
+    color: white;
+    padding: 10px;
+    margin: 10px;
+    border: 5px solid red;
+    box-sizing: border-box;
+    position: absolute;
 }
 
 .paragraph {
     padding: 10px;
     border: dotted;
     max-height: 200px;
-    overflow: scroll;
+    overflow: auto;
+    max-width: 1000px;
+    ;
 }
