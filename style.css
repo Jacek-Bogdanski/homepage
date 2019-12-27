@@ -8,27 +8,6 @@ a {
     text-decoration: none;
 }
 
-.menuLink {
-    color: #fff;
-    padding: 10px 30px;
-}
-
-.menuLink:hover {
-    background: #003495;
-}
-
-.mainHeader {
-    color: #FF5E5B;
-}
-
-.sectionHeader {
-    color: #3342BF;
-}
-
-h2 {
-    color: #1460aa;
-}
-
 .menu {
     padding: 10px;
     width: 100%;
@@ -41,6 +20,15 @@ h2 {
     z-index: 2;
 }
 
+.menu__link {
+    color: #fff;
+    padding: 10px 30px;
+}
+
+.menu__link:hover {
+    background: #003495;
+}
+
 .content {
     padding: 40px 20px 20px 20px;
     margin-left: auto;
@@ -48,8 +36,8 @@ h2 {
     width: 1000px;
 }
 
-.about {
-    min-width: 500px;
+.content__heading {
+    color: #FF5E5B;
 }
 
 .paragraph {
@@ -60,7 +48,24 @@ h2 {
     max-width: 1000px;
 }
 
-.mainFooter {
+.paragraph__header {
+    color: #3342BF;
+}
+
+.about {
+    min-width: 500px;
+}
+
+.about__header {
+    color: #3342BF;
+}
+
+.about__image {
+    height: 150px;
+    float: right;
+}
+
+.footer {
     width: 100%;
     text-align: center;
     padding: 10px;
